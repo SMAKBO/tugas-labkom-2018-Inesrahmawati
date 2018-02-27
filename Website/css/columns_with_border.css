@@ -1,0 +1,44 @@
+.one_half_with_border,  .one_third_with_border,  .two_third_with_border,  .three_fourth_with_border, 
+.one_fourth_with_border{
+    margin-right: 4%;
+    float: left;
+    position: relative;
+	margin-bottom: 37px;	
+}
+ 
+.one_half_with_border{
+    width: 45.9%;
+}
+.one_third_with_border{
+    width: 27.9%;
+}
+.two_third_with_border{
+    width: 63.9%;
+}
+.one_fourth_with_border{
+    width: 18.9%;
+}
+.three_fourth_with_border{
+    width: 72.9%;
+}
+.one_with_border img,  .one_half_with_border img,  .one_third_with_border img,  .two_third_with_border img, 
+.three_fourth_with_border img,  .one_fourth_with_border img{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    width: auto;	
+}
+
+@media screen and (max-width: 840px) {
+
+.one_half_with_border,  .one_third_with_border,  .two_third_with_border,  .three_fourth_with_border, 
+.one_fourth_with_border{
+ width: 100%;
+ text-align: center;
+ border: 0;
+ padding-left: 0;
+ padding-right: 0;
+ margin-left: 0;
+ margin-right: 0;
+}
+}
