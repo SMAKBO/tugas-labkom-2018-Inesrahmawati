@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Sifat Fisika</h2>
+
+<table>
+  <tr>
+    <th>Physical Properties</th>
+    <th>Property Value</th>
+  </tr>
+  <tr>
+    <td>Molecular Formula</td>
+    <td>C3H4Cl2F2O or CH3OCF2CHCl2</td>
+  </tr>
+  <tr>
+    <td>Condenced Structural Formula</td>
+    <td>CHCl2CF2OCH3</td>
+  </tr>
+  <tr>
+    <td>IUPAC Name</td>
+    <td>2,2-dichloro-1,1-difluoro-1-methoxyethane</td>
+  </tr>
+  <tr>
+    <td>Colour</td>
+    <td>Colourless</td>
+  </tr>
+  <tr>
+    <td>Family Groups</td>
+    <td>Ether</td>
+  </tr>
+  <tr>
+    <td>The Odor</td>
+    <td>Sweet Fruity Odor</td>
+  </tr>
+   <tr>
+    <td>Volatility</td>
+    <td>Low</td>
+  </tr>
+  <tr>
+    <td>Solubility</td>
+    <td>Less than 1 mg/mL at 66° F</td>
+  </tr>
+   <tr>
+    <td>Soluble In</td>
+    <td>Rubber</td>
+  </tr>
+   <tr>
+    <td>Miscible With</td>
+    <td>Diethylether,Chloroform, Oils,Acetone,and Ethanol</td>
+  </tr>
+   <tr>
+    <td>Boilling Points (at 1 atmosphere)</td>
+    <td>104.8 °C</td>
+  </tr>
+  <tr>
+    <td>Melting Points</td>
+    <td> -35 °C</td>
+  </tr>
+  <tr>
+    <td>Flash Point</td>
+    <td>63°C</td>
+  </tr>
+   <tr>
+    <td>Molecular Weight</td>
+    <td>164.961 g/mol</td>
+  </tr>
+  <tr>
+    <td>The Exist</td>
+    <td>Liquid</td>
+  </tr>
+  <tr>
+    <td>Hydrogen Bond Donor Count</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Hydrogen Bond Acceptor Count</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Complexity</td>
+    <td>75.7</td>
+  </tr>
+  <tr>
+    <td>Rotatable Bond Count</td>
+    <td>2</td>
+  </tr>
+  
+  <tr>
+    <td>Density</td>
+    <td>1.426 at 68° F </td>
+  </tr>
+  <tr>
+    <td>Vapor Pressure</td>
+    <td>20 mm Hg at 63.9° F ; 22.5 mm Hg at 68° F</td>
+    <tr>
+    <td>Vapor Density</td>
+    <td>5.7</td>
+  </tr>
+  </tr>
+</table>
+
+<footer>
+  <p>Posted by: Aurellia Inin Fathimah</p>
+</footer>
+
+</body>
+</html>
