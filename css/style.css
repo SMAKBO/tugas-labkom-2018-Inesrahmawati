@@ -1,0 +1,11 @@
+}
+
+.Methoxyflurane-parallax { 
+    background-image: url("Img/fix8.jpg");
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
