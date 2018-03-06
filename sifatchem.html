@@ -16,13 +16,14 @@
 <!-- font fam -->
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bitter|Dancing+Script|Dosis|Gloria+Hallelujah|Pacifico" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"> 
-
-
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet"> 
 
 </head>
-<body>
 
+<body>
+  <!-- adding nav bar -->
 	<<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #004080; font-family: 'Gloria Hallelujah', cursive; font-size: 18px">
         <a class="navbar-brand" style=" font-family: 'Berkshire Swash', cursive; font-size: 30px" href="#">Xythrane Artusio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,12 +55,10 @@
               <a class="nav-link disabled" href="#">About Us</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-    </form>
         </div>
       </nav>
+      <br><br>
+  <!-- ending of navbar -->
 
 <!-- Adding parallax -->
 
@@ -69,9 +68,9 @@ body, html {
 }
 .parallax {
     /* The image used */
-    background-image: url('Img/bg1.jpg');
+    background-image: url('Img/pall2.png');
     /* Full height */
-    height: 80%; 
+    height: 50%; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -82,18 +81,104 @@ body, html {
 
 <div class="parallax"></div>
 
-<div style="height:1000px;background-color:white;font-size:36px">
-
+<div style="height:1000px;background-color: #e6ffff;font-size:36px">
+<br>
 <!-- Adding title big -->
 
 <div class="text-center">
-	<Img src="Img/3D.png" class="rounded float-left" alt="...">
-	<h1 class="display-1">Chemical Properties</h1>
-	<h1 class="display-3"><small class="text-muted">of Methoxyflurane</small> </h1>
+	<img src="Img/3D.png" class="rounded float-left" alt="...">
+  <img src="Img/3D.png" class="rounded float-right" alt="...">
+	<h1 class="display-2" style="font-family: 'Kaushan Script', cursive;">Chemical Properties</h1>
+  <img src="Img/separatorcici.png">
 </div>
+<br>
 
 <!-- Adding paragraph -->
-<div class="container-fluid" style="background-color: #ffe6f0">
+<div class="container">
+
+  <!-- TABLE -->
+<div class="container">
+
+<style>
+table {
+    font-family: 'Arapey', serif;
+    border-collapse: collapse;
+    font-size: 24px;
+    width: 80%;
+}
+td, th {
+    border: 1px solid #0052cc;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #cce0ff;
+}
+</style>
+
+<div class="container">
+<center> <table>
+  <tr>
+    <th><center>Chemical Properties</th>
+    <th><center>Property Value</th>
+  </tr>
+  <tr>
+    <td>Molecular Formula</td>
+    <td><dd class="col-md-10 col-sm-8">C<sub>3</sub>H<sub>4</sub>Cl<sub>2</sub>F<sub>2</sub>O</dd></td>
+  </tr>
+  <tr>
+    <td>Condenced Structural Formula</td>
+    <td>CHCl<sub>2</sub>CF<sub>2</sub>OCH<sub>3</sub></td>
+  </tr>
+  <tr>
+    <td>IUPAC Name</td>
+    <td>2,2-dichloro-1,1-difluoro-1-methoxyethane</td>
+  </tr>
+  <tr>
+    <td>Family Groups</td>
+    <td>Ether</td>
+  </tr>
+   <tr>
+    <td>Boilling Points (at 1 atmosphere)</td>
+    <td>104.8 °C</td>
+  </tr>
+  <tr>
+    <td>Melting Points</td>
+    <td> -35 °C</td>
+  </tr>
+  <tr>
+    <td>Flash Point</td>
+    <td>63°C</td>
+  </tr>
+   <tr>
+    <td>Molecular Weight</td>
+    <td>164.961 g/mol</td>
+  </tr>
+  <tr>
+    <td>The Exist</td>
+    <td>Liquid</td>
+  </tr>
+  <tr>
+    <td>Hydrogen Bond Donor Count</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Hydrogen Bond Acceptor Count</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Complexity</td>
+    <td>75.7</td>
+  </tr>
+  <tr>
+    <td>Rotatable Bond Count</td>
+    <td>2</td>
+  </tr>
+ 
+</table>
+</div>
+</div>
+<!--end of table-->
 
 <h6>	
 <div class="block content-960 center-relative">
@@ -102,12 +187,6 @@ body, html {
   </p>
 <div class="separator blog_separator"></div>	
    <div class="single-content text-left">
-    <p class="bottom-30">
-    With a molecular formula of C3H4Cl2F2O and a condensed structural formula of CHCl2CF2OCH3, the International Union of Pure and Applied Chemistry (IUPAC) name for methoxyflurane is 2,2-dichloro-1,1-difluoro-1-methoxyethane. It is a halogenated ether in form of a clear, colorless liquid, and its vapor has a strong fruity aroma. It is miscible with ethanol, acetone, chloroform, diethyl ether, and fixed oils. It is soluble in rubber.
-    </p>
-   <p class="bottom-30">
-    With a minimum alveolar concentration (MAC) of 0.16%, methoxyflurane is an extremely potent anesthetic agent. It is a powerful analgesic agent at well below full anesthetic concentrations. Because of its low volatility and very high boiling point (104.8 °C at 1 atmosphere), methoxyflurane has a low vapor pressure at ambient temperature and atmospheric pressure. It is therefore quite difficult to vaporize methoxyflurane using conventional anesthetic vaporizers.
-   </p>
    <div class="alert alert-info" role="alert">
     The carbon fluorine bond, a component of all organofluorine compounds, is the strongest chemical bond in organic chemistry. Furthermore, this bond becomes shorter and stronger as more fluorine atoms are added to the same carbon on a given molecule. Because of this, fluoroalkanes are some of the most chemically stable organic compounds.
    </div>
