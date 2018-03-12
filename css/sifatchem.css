@@ -1,0 +1,8 @@
+.fixed-top {background-color: #004080; font-family: 'Gloria Hallelujah', cursive; font-size: 18px}
+.parallax {height: 50%; background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.body {background-color: #e6ffff;font-size:36px}
+.display-2 {font-family: 'Kaushan Script', cursive;}
+.footer {font-size:12px;background: #cce6ff; height: 100px; font-family: 'Satisfy', cursive; font-size: 15px}
