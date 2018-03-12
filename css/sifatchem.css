@@ -14,3 +14,5 @@ td,th {border: 1px solid #0052cc;
     text-align: left;
     padding: 8px}
 tr:nth-child(even) {background-color: #cce0ff}
+.what {font-family: 'Limelight', cursive; background-color: #ccccff}
+.info {font-family: 'Quicksand', sans-serif;}
