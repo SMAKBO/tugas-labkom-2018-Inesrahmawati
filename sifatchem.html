@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Chemical Properties - Methoxyflurane</title>
+
 <!-- framework -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -20,11 +21,14 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet"> 
 
+<!-- css external-->
+<link rel="stylesheet" type="text/css" href="css/sifatchem.css">
+
 </head>
 
 <body>
   <!-- adding nav bar -->
-	<<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #004080; font-family: 'Gloria Hallelujah', cursive; font-size: 18px">
+	<<nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <a class="navbar-brand" style=" font-family: 'Berkshire Swash', cursive; font-size: 30px" href="#">Xythrane Artusio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -62,6 +66,7 @@
 
 <!-- Adding parallax -->
 
+<div class="parallax">
 <style>
 body, html {
     height: 100%;
@@ -71,24 +76,20 @@ body, html {
     background-image: url('Img/pall2.png');
     /* Full height */
     height: 50%; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* Create the parallax scrolling effect (in css) */
 }
 </style>
 
-<div class="parallax"></div>
+</div>
 
-<div style="background-color: #e6ffff;font-size:36px">
+<div class="body">
 <br>
 <!-- Adding title big -->
 
 <div class="text-center">
 	<img src="Img/3D.png" class="rounded float-left" alt="...">
   <img src="Img/3D.png" class="rounded float-right" alt="...">
-	<h1 class="display-2" style="font-family: 'Kaushan Script', cursive;">Chemical Properties</h1>
+	<h1 class="display-2">Chemical Properties</h1>
   <img src="Img/separatorcici.png">
 </div>
 <br>
@@ -141,18 +142,6 @@ tr:nth-child(even) {
     <td>Ether</td>
   </tr>
    <tr>
-    <td>Boilling Points (at 1 atmosphere)</td>
-    <td>104.8 °C</td>
-  </tr>
-  <tr>
-    <td>Melting Points</td>
-    <td> -35 °C</td>
-  </tr>
-  <tr>
-    <td>Flash Point</td>
-    <td>63°C</td>
-  </tr>
-   <tr>
     <td>Molecular Weight</td>
     <td>164.961 g/mol</td>
   </tr>
@@ -181,21 +170,10 @@ tr:nth-child(even) {
 </h6>
 </div>
 
-<!-- Adding decorator -->
-<div class="container">
-	<div class="card" style="width: 10rem; height: 23rem">
-		<h5 class="card-header text-center">FIY</h5>
-		<img src="Img/ben.png" alt="Card image cap">
-		<div class="card-body">
-			<h6><p class="card-text">The Useness of methoxhyflurane in daily life as a anastyc</p></h6>
-		</div>
-	</div>
-</div>
-
 </body>
 <footer>
   
-  <div class="text-center" style="font-size:12px;background: #cce6ff; height: 100px; font-family: 'Satisfy', cursive; font-size: 15px">
+  <div class="text-center footer">
   <p><br>page by Syifa Aida Putri Hanindya</p>
   <p>in stressfull life, Cherio</p>
   </div>
