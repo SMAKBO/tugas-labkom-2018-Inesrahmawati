@@ -6,3 +6,11 @@
 .body {background-color: #e6ffff;font-size:36px}
 .display-2 {font-family: 'Kaushan Script', cursive;}
 .footer {font-size:12px;background: #cce6ff; height: 100px; font-family: 'Satisfy', cursive; font-size: 15px}
+table {font-family: 'Arapey', serif;
+    border-collapse: collapse;
+    font-size: 24px;
+    width: 80%}
+td,th {border: 1px solid #0052cc;
+    text-align: left;
+    padding: 8px}
+tr:nth-child(even) {background-color: #cce0ff}
