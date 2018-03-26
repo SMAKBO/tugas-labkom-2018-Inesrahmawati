@@ -2,6 +2,7 @@
 <style>
 <style>
 body, html {
+	background-color: #B2EBF2
     height:  80%;
 }
 
@@ -18,4 +19,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.Judul  {text-align: center;}
+
+
 </style>
