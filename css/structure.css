@@ -1,0 +1,55 @@
+.navbar{
+	background-color: #001933; 
+	font-family: Limelight; 
+	font-size: 18px;
+}
+.navbar-brand{
+	font-family: Black Ops One; 
+	font-size: 30px;
+}
+.parallax{
+    /* set a sprcific heigh */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html {
+    height: 80%;
+}
+.body{
+	background-color:#e6f2ff
+}
+.display-2{
+	font-family: Nosifer ;
+	font-size  :50px
+}
+.awal{
+	background-color: #1e2f2f; 
+	font-family: Limelight; 
+	font-size: 25px; 
+	color: white;
+	border-bottom: 3px dashed #d6d6c2;
+	border-top:  3px dashed #d6d6c2;
+
+}
+.alert{
+	font-family: Arapey; 
+	font-size: 20px;
+}
+p{
+	font-family: Arapey; 
+	font-size: 20px;
+
+
+}
+.footer{
+font-size:12px;
+background: #cce6ff; 
+height: 100px;
+font-family: 'Satisfy', cursive; 
+font-size: 15px
+}
