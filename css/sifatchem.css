@@ -1,11 +1,31 @@
 .fixed-top {background-color: #004080; font-family: 'Gloria Hallelujah', cursive; font-size: 18px}
-.navbar-brand {font-family: 'Berkshire Swash', cursive; font-size: 30px}
-.parallax {height: 50%; background-attachment: fixed;
+.navbar{
+	background-color: #001933; 
+	font-family: Limelight; 
+	font-size: 18px;
+}
+.navbar-brand{
+	font-family: Black Ops One; 
+	font-size: 30px;
+}
+.parallax{
+    /* set a sprcific heigh */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;}
-.body {background-color: #e6ffff;font-size:36px}
-.display-2 {font-family: 'Kaushan Script', cursive;}
+    background-size: cover;
+}
+body, html {
+    height: 80%;
+}
+.body{
+	background-color:#e6f2ff
+}	
+.display-2 {font-family: 'Viga', sans-serif;}
+
 .footer {font-size:12px;background: #cce6ff; height: 100px; font-family: 'Satisfy', cursive; font-size: 15px}
 table {font-family: 'Arapey', serif;
     border-collapse: collapse;
