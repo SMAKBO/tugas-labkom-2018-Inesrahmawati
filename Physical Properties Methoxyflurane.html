@@ -7,11 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
 
 
@@ -76,17 +78,32 @@ body, html {
 }
 
 .parallax {
-    /* The image used */
+    /* Set a spesific height */
     background-image: url('Img/molecule.jpg');
 
     /* Full height */
-    height: 100%; 
+    height: 700px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.caption{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-family: coda;
+}
+.caption span.border {
+  background-color: #111;
+  color: #ffff00;
+  padding: 18px;
+  font-size: 30px;
+  letter-spacing: 10px;
 }
 </style>
 
@@ -95,6 +112,30 @@ body, html {
 
 <br>
 <br>
+<br>
+<!-- Adding title big -->
+
+<div class="text-center">
+  <img src="Img/3D.png" class="rounded float-left" alt="...">
+  <img src="Img/3D.png" class="rounded float-right" alt="...">
+  <h1 class="display-2">Physical Properties of Methoxyflurane</h1>
+  <br><br><br>
+  <img src="Img/separatorcici.png">
+</div>
+<br>
+
+
+<!--paragraph-->  
+<body style="background-color:#e6f2ff">
+<div class="container">
+ 
+  <br>
+  <h5><p class="what"><center><strong>What is the definiton of physical property?</strong></p></h5>
+  <h6><p class="info">
+   A physical property is defined as a characteristic of matter that may be observed and measured without changing the chemical identity of a sample. The measurement of a physical property may change the arrangement of matter in a sample, but not the structure of its molecules. In other words, a physical property may involve a physical change, but not a chemical change. The following are some of physical properties of methoxyflurane.
+  </center></p></h6>
+ 
+</div>
 <!-- TABLE -->
 <div class="container">
   <link href="https://fonts.googleapis.com/css?family=Neucha|Shadows+Into+Light+Two" rel="stylesheet">
@@ -115,8 +156,8 @@ tr:nth-child(even) {
 </style>
 </head>
 <body>
-<br><br><br><br>
-<h2><center style="font-family: 'Neucha', cursive; font-size:50px"> Physical Properties of Methoxyflurane <img src="Img/separatorcici.png"></center></h2>
+<br><br>
+
 <br>
 
 <div class="container">
@@ -196,16 +237,15 @@ tr:nth-child(even) {
 </table>
 </div>
 </div>
-
-</body>
 <br>
 <br>
 <br>
 <br>
 <footer>
-  <div class="text-center" style="font-size:12px;background: #cce6ff; height: 100px; font-family: 'Satisfy', cursive; font-size: 15px">
-  <p><br>Page by <a href="https://aurellia.github.io/aurelliaif.github.io/">Aurellia Inin Fathimah</a></p>
-  <p>in stressfull life, Cherio</p>
+  <div class="text-center">
+  <p class="footer"><br>Page by <a href="https://aurellia.github.io/aurelliaif.github.io/">Aurellia Inin Fathimah</a>
+  <br>in stressfull life, Cherio</p>
   </div>
 </footer>
+</body>
 </html>
