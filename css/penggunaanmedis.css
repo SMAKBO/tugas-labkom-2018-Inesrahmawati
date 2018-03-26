@@ -1,0 +1,50 @@
+.parallax{
+    /* set a sprcific heigh */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 48px;}
+
+    p {
+    margin-right: 60px;
+    margin-left: 60px;
+    }
+
+    h2 {
+    font-size: 50px;
+    }
+
+    h3 {
+    font-size: 35px;
+    margin-left: 60px;
+    }
+
+    h4 {
+    font-size: 35px;
+    margin-left: 60px;
+    }
+
+    h6 {
+    font-size: 35px;
+    margin-left: 60px;
+    }
+
+    body, html {
+    height: 80%;
+}
+
+    .footer{
+	font-size:12px;
+	background: #cce6ff; 
+	height: 100px;
+	font-family: Satisfy; 
+	font-size: 15px ;
+}
+
