@@ -1,0 +1,49 @@
+.navbar{
+	background-color: #001933; 
+	font-family: Limelight; 
+	font-size: 18px;
+}
+.navbar-brand{
+	font-family: Black Ops One; 
+	font-size: 30px;
+}
+.parallax{
+    /* set a sprcific heigh */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html {
+    height: 80%;
+}
+.body{
+	background-color:#e6f2ff
+}
+.display-2{
+	font-family: Bungee Inline ;
+	font-size  :90px
+}
+.jumbotron{
+	font-family: Arapey; 
+	color: white;
+	background-color: #2D383A; 
+	border-bottom: 3px dashed #d6d6c2;; 
+	border-top: 3px dashed #d6d6c2;
+}
+.paragraph  {
+	font-family: Arapey;
+	font-size  :20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.footer{
+font-size:12px;
+background: #cce6ff; 
+height: 100px;
+font-family: 'Satisfy', cursive; 
+font-size: 15px
+}
