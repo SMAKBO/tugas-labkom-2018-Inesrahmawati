@@ -1,9 +1,21 @@
 
 <style>
-body	{background-color:#e6f2ff
-
+<style>
+body, html {
+    height:  80%;
 }
-h1	{ ;
 
+.parallax {
+    /* The image used */
+    background-image: url('Img/History.jpg');
+
+    /* Full height */
+    height: 85%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.judul {font-family: 'Sevillana', cursive;}
+</style>
