@@ -1,14 +1,5 @@
-.fixed-top 
-{	background-color: #004080; 
-	font-family: 'Gloria Hallelujah', cursive; 
-	font-size: 18px	}
-
-.navbar-brand 
-{	font-family: 'Berkshire Swash', cursive; 
-	font-size: 30px	}
-
 .parallax 
-{	height: 50%; background-attachment: fixed;
+{	height: 100%; background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;	}
@@ -24,9 +15,18 @@
 	font-family: 'Satisfy', cursive; 
 	font-size: 15px	}
 
-.info 
+.sejarah 
 {	font-family: 'Cabin', sans-serif;	
 	text-align: justify;	}
 
 .display-2 
 {	font-family: 'Bree Serif', serif;	}
+
+.navbar	
+{	background-color: #001933;
+	font-family: Limelight;
+	font-size: 18px	}
+
+.navbar-brand
+{	font-family: Black Ops One;
+	font-size: 30px	}
