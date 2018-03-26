@@ -25,7 +25,8 @@
 	font-size: 15px	}
 
 .info 
-{	font-family: 'Cabin', sans-serif;	}
+{	font-family: 'Cabin', sans-serif;	
+	text-align: justify;	}
 
 .display-2 
 {	font-family: 'Bree Serif', serif;	}
