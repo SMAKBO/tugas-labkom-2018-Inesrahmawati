@@ -20,7 +20,7 @@
 	text-align: justify;	}
 
 .display-2 
-{	font-family: 'Bree Serif', serif;	}
+{	font-family: 'Ruslan Display', cursive;	}
 
 .navbar	
 {	background-color: #001933;
@@ -30,3 +30,6 @@
 .navbar-brand
 {	font-family: Black Ops One;
 	font-size: 30px	}
+
+.jumbotron
+{	background-color: #BBDEFB}
